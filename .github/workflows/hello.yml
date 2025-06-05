@@ -11,3 +11,9 @@ jobs:
     steps:
       - name: Say hello
         run: echo "Hello from GitHub Actions!"
+        
+      - name: Show current date
+        run: date
+
+      - name: List files in repo
+        run: ls -la
