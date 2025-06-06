@@ -1,10 +1,10 @@
-
+# this workflow is for testing the push happens
 on:
   push:
     branches:
       - main
 
-      
+
 jobs:
   simple_deployment_pipeline:
     runs-on: ubuntu-latest
