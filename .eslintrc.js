@@ -1,3 +1,4 @@
+/* eslint-env node */
 module.exports = {
   "env": {
     "browser": true,
@@ -20,20 +21,21 @@ module.exports = {
   ],
   "rules": {
     "indent": [
+      "off",
       "error",
         2
       ],
     "linebreak-style": [
-      "error",
-      "unix"
+      "off",
+      "windows",
     ],
     "quotes": [
-      "error",
-      "single"
+      "off",
+      "single",
     ],
     "semi": [
-      "error",
-      "never"
+      "off",
+      "never",
     ],
     "eqeqeq": "error",
     "no-trailing-spaces": "error",
@@ -43,7 +45,7 @@ module.exports = {
     "arrow-spacing": [
       "error", { "before": true, "after": true }
     ],
-    "no-console": "error",
+    'no-console': 'off',
     "react/prop-types": 0
   }
 }
