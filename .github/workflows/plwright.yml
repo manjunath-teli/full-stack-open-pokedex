@@ -25,3 +25,6 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
+
+    - name: sample step added for test
+      run: echo "sample step added for test"
